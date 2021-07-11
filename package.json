@@ -1,0 +1,17 @@
+{
+  "name": "codewind-group5",
+  "version": "1.0.0",
+  "description": "NodeJs code for performing insertion of the data into a PostgreSQl database using Postman",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "serve": "nodemon index.js"
+  },
+  "author": "Saurabh Joshi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pg": "^8.6.0"
+  }
+}
