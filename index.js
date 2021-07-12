@@ -15,7 +15,6 @@ app.listen(5000, () => {
 // Login Data
 app.post('/userRegister', async (req, res) => {
     try {
-        console.log("test");
         const {
             firstname,
             lastname,
@@ -25,15 +24,25 @@ app.post('/userRegister', async (req, res) => {
         const RegisterUsers = await pool.query("INSERT INTO users (firstname, lastname, username, password) VALUES ($1, $2, $3, $4) RETURNING *",
             [firstname, lastname, username, password]
         );
-        console.log("Passed this line");
         res.json(RegisterUsers.rows);
     } catch (error) {
         console.error(error.message);
     }
 });
 
-// Register Data
-
 // Answers Submission
-
-// Results
+app.post('/userAnswers', async (req, res) => {
+    try {
+        const {
+            users_id,
+            answer_selected,
+            correct_answer
+        } = req.body;
+        const SelectedAnswer = await pool.query("INSERT INTO answers (users_id, answer_selected, correct_answer) VALUES ($1, $2, $3) RETURNING *",
+            [users_id, answer_selected, correct_answer]
+        );
+        res.json(SelectedAnswer.rows);
+    } catch (err) {
+        console.error(err.message);
+    }
+});
