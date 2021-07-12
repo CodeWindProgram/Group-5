@@ -12,3 +12,11 @@ CREATE TABLE IF NOT EXISTS users (
     userName VARCHAR(255),
     passWord VARCHAR(255)
 );
+
+-- Answers Table
+CREATE TABLE IF NOT EXISTS answers (
+    id SERIAL PRIMARY KEY,
+    users_id INT,
+    answer_selected VARCHAR(10),
+    correct_answer VARCHAR(10)
+);
