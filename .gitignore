@@ -2,7 +2,6 @@
 .env
 
 # Untracked Code Files
-test.js
 node_modules/*
 
 # Misc

@@ -12,7 +12,7 @@ app.listen(5000, () => {
     console.log("Server is Listening on Port 5000");
 });
 
-// Login Data
+// Users Register Data
 app.post('/userRegister', async (req, res) => {
     try {
         const {
@@ -25,6 +25,24 @@ app.post('/userRegister', async (req, res) => {
             [firstname, lastname, username, password]
         );
         res.json(RegisterUsers.rows);
+    } catch (error) {
+        console.error(error.message);
+    }
+});
+
+// Teachers Register Data
+app.post('/teacherRegister', async (req, res) => {
+    try {
+        const {
+            tfirstname,
+            tlastname,
+            tusername,
+            tpassword,
+        } = req.body;
+        const RegisterTeacher = await pool.query("INSERT INTO teachers (tfirstname, tlastname, tusername, tpassword) VALUES ($1, $2, $3, $4) RETURNING *",
+            [tfirstname, tlastname, tusername, tpassword]
+        );
+        res.json(RegisterTeacher.rows);
     } catch (error) {
         console.error(error.message);
     }
