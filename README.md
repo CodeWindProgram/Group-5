@@ -10,6 +10,10 @@
 3. ###### @so-bit - sonalbijitkar2015@gmail.com 
    - Downloaded and Created the PostgreSQL database schema and tables required as per problem statement.
 
+4. ###### @Shubhamcm - shubham.c.mishra@icloud.com
+   - Created Project boilerplate files and helped in writing JS codes.
+   - Helped in Database design and Working of the Application.  
+
 ## Initial Setup
 1. #### Node Setup
     - Run `npm install` to install all the dependant packages to run the app.
