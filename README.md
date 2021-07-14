@@ -40,7 +40,7 @@
 3. In the URL section, Select **POST** and paste the following link:
 
    - Type the following JSON code for inserting UsersData.
-     - Link: **http://localhost:5000/userRegister**.
+     - Paste this Link in **Postman** URL tab: **http://localhost:5000/userRegister**.
        ```JSON
            {
                "firstname": "John",
@@ -51,7 +51,7 @@
        ```
 
    - Type the following JSON code for inserting Teachers data.
-     - Link: **http://localhost:5000/teacherRegister**.
+     - Paste this Link in **Postman** URL tab: **http://localhost:5000/teacherRegister**.
        ```JSON
            {
                "tfirstname": "Chloe",
@@ -61,7 +61,7 @@
            }
        ```
    - Type the following JSON code for inserting answers data.
-     - Link: **http://localhost:5000/userAnswers**.
+     - Paste this Link in **Postman** URL tab: **http://localhost:5000/userAnswers**.
        ```JSON
            {
                "users_id": 1,
