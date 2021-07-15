@@ -14,6 +14,10 @@
    - Created Project boilerplate files and helped in writing JS codes.
    - Helped in Database design and Working of the Application.  
 
+5. ###### @Archana70 - archanapotraj7050@gmail.com
+   - Discussed with group members in which direction we have to work.
+   - Learn working of Git.
+
 ## Initial Setup
 1. #### Node Setup
     - Run `npm install` to install all the dependant packages to run the app.
