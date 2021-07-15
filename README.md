@@ -17,6 +17,7 @@
 5. ###### @Archana70 - archanapotraj7050@gmail.com
    - Discussed with group members in which direction we have to work.
    - Learn working of Git.
+   - Explored technical aspects for developing solution and designing it.
 
 ## Initial Setup
 1. #### Node Setup
