@@ -5,7 +5,7 @@
     - Worked on creating the code for the API to insert data into postgresql database.
     - Fixed bugs that caused data not be inserted to the database.
     - Helped @so-bit to create postgreSQL schema.
-    - 
+    
 2. ###### @himanshu-patil - himanshu15122000@gmail.com 
    - After I had a word with the group members, I made the connectivity part of the database by creating a file (**db.js**) for the connection to the PostgreSQL database.
 
