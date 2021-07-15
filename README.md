@@ -5,8 +5,10 @@
     - Worked on creating the code for the API to insert data into postgresql database.
     - Fixed bugs that caused data not be inserted to the database.
     - Helped @so-bit to create postgreSQL schema.
+    - 
 2. ###### @himanshu-patil - himanshu15122000@gmail.com 
    - After I had a word with the group members, I made the connectivity part of the database by creating a file (**db.js**) for the connection to the PostgreSQL database.
+
 3. ###### @so-bit - sonalbijitkar2015@gmail.com 
    - Downloaded and Created the PostgreSQL database schema and tables required as per problem statement.
 
@@ -18,6 +20,15 @@
    - Discussed with group members in which direction we have to work.
    - Learn working of Git.
    - Explored technical aspects for developing solution and designing it.
+
+6. ###### @rohitlotilkar - lotlikar.rohit50@gmail.com
+   - Deciding the schemas for the database, Create the table in the database, learning to connect node js with postgres database
+   - Worked on Database connection  to Node js. Helped inserting dummy data in the tables for testing.
+   - Helped other group member to create question page which extracts the created questions from database and options of the question, Created a form interface to take input    from user as a answer and direct that answer to a different route so that answer can be comitted to a database. 
+   - Created a interface to display all the question and their respective options. 
+   - Collected all the inputs from the user an and stored it in a javascript object.
+   - Created the logic for entering the user input data into the database and check if the data is already entered or not. 
+   - Created Code to enter the information in exam table as to extract the results of the exam taken by the user
 
 ## Initial Setup
 1. #### Node Setup
