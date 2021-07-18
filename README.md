@@ -21,7 +21,7 @@
    - Learn working of Git.
    - Explored technical aspects for developing solution and designing it.
 
-6. ###### @rohitlotilkar - lotlikar.rohit50@gmail.com
+6. ###### @rohitlotlikar - lotlikar.rohit50@gmail.com
    - Deciding the schemas for the database, Create the table in the database, learning to connect node js with postgres database
    - Worked on Database connection  to Node js. Helped inserting dummy data in the tables for testing.
    - Created question page which extracts the created questions from database and options of the question, Created a form interface to take input    from user as a answer and direct that answer to a different route so that answer can be comitted to a database. 
