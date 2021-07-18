@@ -1,7 +1,7 @@
 // File for connecting to postgreSQL database
 const Pool = require("pg").Pool;
 
-// Connecting to DB
+// Connecting to Database
 const pool = new Pool({
     user: process.env.user,
     password: process.env.password,
